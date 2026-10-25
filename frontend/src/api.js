@@ -1,6 +1,8 @@
 import axios from 'axios';
 
-const api = axios.create({ baseURL: '/api', timeout: 120000 });
+const API_BASE_URL = (import.meta.env.VITE_API_BASE_URL || 'http://localhost:8000/api').replace(/\/$/, '');
+
+const api = axios.create({ baseURL: API_BASE_URL, timeout: 120000 });
 
 // Safety Analysis
 export const analyzeSafety = (formData) =>
