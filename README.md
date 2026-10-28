@@ -35,12 +35,12 @@ The **AI-Powered Multimodal Construction Intelligence Platform** addresses these
 
 The platform follows a frontend-backend architecture that separates the user interface from AI processing and application logic.
 
-1. **User Input:** Users submit construction-related queries, property details, project information, or site images.
-2. **Frontend Layer:** The React.js interface collects inputs and presents results.
-3. **Backend Layer:** FastAPI handles API requests, validates inputs, and coordinates processing.
-4. **AI Processing:** The multimodal LLM interprets supported text, images, and structured information to generate relevant insights.
-5. **Structured Responses:** JSON-based contracts organize the generated results into predictable response formats.
-6. **Result Presentation:** The frontend displays the insights, assessments, and recommendations to the user.
+1. User Input: Users submit construction-related queries, property details, project information, or site images.
+2. Frontend Layer: The React.js interface collects inputs and presents results.
+3. Backend Layer: FastAPI handles API requests, validates inputs, and coordinates processing.
+4. AI Processing: The multimodal LLM interprets supported text, images, and structured information to generate relevant insights.
+5. Structured Responses: JSON-based contracts organize the generated results into predictable response formats.
+6. Result Presentation: The frontend displays the insights, assessments, and recommendations to the user.
 
 ##  Workflow
 
@@ -82,7 +82,7 @@ Frontend Result Display
 - Node.js and npm
 - Python 3.10 or later
 - pip
-- An API key for the selected multimodal AI provider, if required by the backend
+- An API key for the selected multimodal AI provider
 
 ### Installation
 
